@@ -785,9 +785,7 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
-.footer-main .block img {
-  margin-bottom: 60px;
-}
+
 
 .footer-main .block ul.social-links-footer {
   margin-bottom: 0;
