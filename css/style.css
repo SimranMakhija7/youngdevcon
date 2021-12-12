@@ -1,16 +1,21 @@
-/*=== MEDIA QUERY ===*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root{
+
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  
   color: #222222;
   font-weight: 600;
 }
@@ -109,21 +114,7 @@ ul.social-links li a i {
   bottom: 0;
 }
 
-.text-overlay:after {
-  content: 'CONFERENCE';
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 215px;
-  width: 100%;
-  height: 300px;
-  background-position: center center;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  opacity: .05;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
+
 
 @media (max-width: 767px) {
   .text-overlay:after {
@@ -472,7 +463,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -584,7 +575,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .main-nav .navbar-nav .nav-item {
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .main-nav .navbar-nav .nav-item .nav-link {
@@ -594,7 +585,7 @@ select.form-control:not([size]):not([multiple]) {
   padding-left: 8px;
   padding-right: 20px;
   font-size: 1.06rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 1352px) {
@@ -732,7 +723,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-size: 1.125rem;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -837,7 +828,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .subfooter .copyright-text p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .subfooter .copyright-text p a {
@@ -966,7 +957,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .banner .block .timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 35px;
   line-height: 77px;
   text-align: center;
@@ -999,7 +990,7 @@ select.form-control:not([size]):not([multiple]) {
   text-transform: lowercase;
   font-weight: normal;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner .block h1 {
@@ -1355,7 +1346,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .schedule .schedule-tab ul li.nav-item a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #ff6600;
@@ -1368,7 +1359,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule .schedule-tab ul li.nav-item a span {
   margin-top: 2px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: block;
   font-size: 1rem;
   color: #848484;
@@ -1489,7 +1480,7 @@ select.form-control:not([size]):not([multiple]) {
 .schedule .schedule-contents .schedule-item li.headings div {
   color: #fff;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .schedule .schedule-contents .schedule-item li.schedule-details {
@@ -1509,7 +1500,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule .schedule-contents .schedule-item li.schedule-details .block div {
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .schedule .schedule-contents .schedule-item li.schedule-details .block div i {
@@ -1580,7 +1571,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .schedule.two .schedule-tab ul li.nav-item a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #222222;
@@ -1593,7 +1584,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule.two .schedule-tab ul li.nav-item a span {
   margin-top: 2px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: block;
   font-size: 14px;
   color: #848484;
@@ -1716,7 +1707,7 @@ select.form-control:not([size]):not([multiple]) {
 .schedule.two .schedule-contents .schedule-item li.headings div {
   color: #fff;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .schedule.two .schedule-contents .schedule-item li.schedule-details:not(:last-child) {
@@ -1736,7 +1727,7 @@ select.form-control:not([size]):not([multiple]) {
   padding-top: 25px;
   padding-bottom: 25px;
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .schedule.two .schedule-contents .schedule-item li.schedule-details .block div i {
@@ -1821,7 +1812,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .ticket-feature .block .timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 35px;
   height: 100px;
   width: 100px;
@@ -1852,7 +1843,7 @@ select.form-control:not([size]):not([multiple]) {
   text-transform: lowercase;
   font-weight: normal;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .ticket-feature .block-2 {
@@ -1896,7 +1887,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .ticket-feature .block-2 .service-item h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1963,7 +1954,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .registration .service-block .service-item h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -2339,7 +2330,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .feature .testimonial p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
   font-style: italic;
   color: #242424;
@@ -2480,7 +2471,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .testimonial .testimonial-slider .item .block p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
   color: #888888;
 }
@@ -2629,7 +2620,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .single-speaker .block-2 .skills .skill-bar .progress .progress-bar span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   float: right;
   margin-top: -20px;
   color: #222222;
@@ -2666,7 +2657,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .speakers-full-width .speaker-slider .speaker-image .primary-overlay h5, .speakers-full-width .speaker-slider .speaker-image .primary-overlay p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
@@ -2745,7 +2736,7 @@ select.form-control:not([size]):not([multiple]) {
   background: transparent;
   border: none;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-right: 25px;
 }
 
@@ -3083,7 +3074,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .news .blog-post.single .post-details .share-block .tag p, .news .blog-post.single .post-details .share-block .tag ul {
   display: inline;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .news .blog-post.single .post-details .share-block .tag p {
@@ -3115,7 +3106,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .news .blog-post.single .post-details .share-block .share p, .news .blog-post.single .post-details .share-block .share ul {
   display: inline;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .news .blog-post.single .post-details .share-block .share p {
@@ -3468,7 +3459,7 @@ ul.pagination .active a {
 }
 
 .news-hr .news-post-hr .post-contents .more a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
   text-transform: uppercase;
   font-size: 14px;
@@ -3573,7 +3564,7 @@ ul.pagination .active a {
 }
 
 .testimonial .testimonial-item .media .media-body .name p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
 }
 
