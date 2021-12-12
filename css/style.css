@@ -775,13 +775,13 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-main {
-  background: #272735;
-  padding: 90px 0;
+  background: #D9ECF2;
+  padding: 10px 0;
 }
 
 @media (max-width: 767px) {
   .footer-main {
-    padding: 50px 0;
+    padding: 0px 0;
   }
 }
 
@@ -808,7 +808,8 @@ select.form-control:not([size]):not([multiple]) {
   height: 50px;
   width: 50px;
   text-align: center;
-  background: #fff;
+  color: #1AA6B7;
+  
 }
 
 .footer-main .block ul.social-links-footer li a i {
@@ -824,7 +825,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .subfooter {
-  background: #2a2a37;
+  background: #D9ECF2;
   padding: 18px 0;
 }
 
