@@ -576,21 +576,11 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
-.main-nav .navbar-brand {
- 
+.main-nav .navbar-brand{
+ max-width: 50%;
 }
 
-@media (max-width: 1200px) {
-  .main-nav .navbar-brand {
-    padding: 1rem 2rem;
-  }
-}
 
-@media (max-width: 767px) {
-  .main-nav .navbar-brand {
-    border-right: none;
-  }
-}
 
 .main-nav .navbar-nav .nav-item {
   position: relative;
